@@ -1,0 +1,197 @@
+[import](common.lg)
+
+# SendActivity_Greeting_text()
+- Hi
+# SendActivity_G25dAN_text()
+- Hi ${user.name}!👋🏼 I am Carla from GER to talk and chat about what job fits you. 🙋🏻‍♀️ 
+# SendActivity_G25dAN()
+[Activity
+    Text = ${SendActivity_G25dAN_text()}
+]
+
+# TextInput_Prompt_3V4RPc()
+[Activity
+    Text = ${TextInput_Prompt_3V4RPc_text()}
+]
+
+# TextInput_Prompt_3V4RPc_text()
+- Please tell me where you currently live.🙂 And let me know and explain a fact about your town. 🏙
+# TextInput_Prompt_2w3aG0()
+[Activity
+    Text = ${TextInput_Prompt_2w3aG0_text()}
+]
+
+# TextInput_Prompt_2w3aG0_text()
+- Fuck yeah, ${user.city}!! I need to go there too one day and discover this place. How do you spend your time there?⚽️🎾🎮👨🏻‍💻 Being outdoors can positively boost your brain. 
+# SendActivity_7qKhaM()
+[Activity
+    Text = ${SendActivity_7qKhaM_text()}
+]
+
+# SendActivity_7qKhaM_text()
+- This is an experiment for personality in chatbots. You will see at the end.
+# TextInput_Prompt_6SCdTJ()
+[Activity
+    Text = ${TextInput_Prompt_6SCdTJ_text()}
+    SuggestedActions = What's up?
+]
+
+# TextInput_Prompt_6SCdTJ_text()
+- Can you ask me what's up?
+# SendActivity_uSP0A1_text()
+- The URL Bar! Oh wait, that one’s just for us chatbots.... lol
+# SendActivity_uSP0A1()
+[Activity
+    Text = ${SendActivity_uSP0A1_text()}
+]
+
+# SendActivity_MKcxoJ_text()
+- Oh no you just missed a nice joke :-( Now we have to continue.
+# SendActivity_MKcxoJ()
+[Activity
+    Text = ${SendActivity_MKcxoJ_text()}
+]
+
+# TextInput_Prompt_O4nHNh_text()
+- Hi sup?👋🏼 Damn thanks buddy that you're doing this experiment as part of my research project. 👍🏼 At first, I want to get to know you and learn some things about you. What's your name?
+# TextInput_Prompt_O4nHNh()
+[Activity
+    Text = ${TextInput_Prompt_O4nHNh_text()}
+]
+
+# TextInput_Prompt_AOn5bn_text()
+- Hi sup?👋🏼 Yippieh! I am happy that you're here.🙂 At first I want to get to know you. So what's your name?
+# TextInput_Prompt_AOn5bn()
+[Activity
+    Text = ${TextInput_Prompt_AOn5bn_text()}
+]
+
+# SendActivity_HBsS3N_text()
+- Heeeey ${user.name}.🙂 I am Carla from Germany to talk about what job fits you. 🙋🏻‍♀️ So glad to meet you! 🤗🙂
+# SendActivity_HBsS3N()
+[Activity
+    Text = ${SendActivity_HBsS3N_text()}
+]
+
+# TextInput_Prompt_WOfEKY_text()
+- Can you ask me what's up?🤭
+# TextInput_Prompt_WOfEKY()
+[Activity
+    Text = ${TextInput_Prompt_WOfEKY_text()}
+    SuggestedActions = What's up?
+]
+
+# SendActivity_n55nrm_text()
+- The URL Bar!👆🏼👆🏼👆🏼 Oh wait, that one’s just for us chatbots.... lol🤣🤣
+# SendActivity_n55nrm()
+[Activity
+    Text = ${SendActivity_n55nrm_text()}
+]
+
+# SendActivity_527D33_text()
+- Oh no you just missed a nice joke :-( Now we have to continue.
+# SendActivity_527D33()
+[Activity
+    Text = ${SendActivity_527D33_text()}
+]
+
+# TextInput_Prompt_Yxs0VM_text()
+- Please tell me where you currently live.🙂 And let me know and explain an exciting specialty about your town. 🏙
+# TextInput_Prompt_Yxs0VM()
+[Activity
+    Text = ${TextInput_Prompt_Yxs0VM_text()}
+]
+
+# TextInput_Prompt_5oTDu8_text()
+- ${user.city} sounds awesomeeee! 😍 I need to go there too one day and discover this place.🙌🏼 How do you spend your free time there? ⚽️🎾🏌🏻🏇🏻🏋🏻🎮👨🏻‍💻
+# TextInput_Prompt_5oTDu8()
+[Activity
+    Text = ${TextInput_Prompt_5oTDu8_text()}
+]
+
+# TextInput_Prompt_4Amwq0_text()
+- Dear participant, thank you for participating in this research project. This project is about the future of conversational agents. Therefore, we will discuss some behavioral preferences. At first, I would like to understand the person I am chatting with better. What is your name?
+# TextInput_Prompt_4Amwq0()
+[Activity
+    Text = ${TextInput_Prompt_4Amwq0_text()}
+]
+
+# SendActivity_HsVZQE_text()
+- Hello ${user.name}. Let me introduce myself as Sophia from Germany, trying to recommend a job that might suit you well. 
+# SendActivity_HsVZQE()
+[Activity
+    Text = ${SendActivity_HsVZQE_text()}
+]
+
+# TextInput_Prompt_13Y5w1_text()
+- Dear participant, thank you for participating in this exciting research project. This project is about outlining the possible future of agents while talking about your job preferences.  At first, I would like to thoroughly understand the person I am chatting with.🙂 What is your name?
+# TextInput_Prompt_13Y5w1()
+[Activity
+    Text = ${TextInput_Prompt_13Y5w1_text()}
+]
+
+# TextInput_Prompt_xfnAOy_text()
+- Now, what has been the favorite destination that you have traveled to? Would it be possible for you to also explain what was so great about it?
+# TextInput_Prompt_xfnAOy()
+[Activity
+    Text = ${TextInput_Prompt_xfnAOy_text()}
+]
+
+# TextInput_Prompt_iBrVpo_text()
+- What could be the favorite destination you traveled to? Could you also explain what was extraordinary about it?
+# TextInput_Prompt_iBrVpo()
+[Activity
+    Text = ${TextInput_Prompt_iBrVpo_text()}
+]
+
+# TextInput_Prompt_H6P1Kn_text()
+- ```Do you also enjoy listening to music? Listening to music has an impact on the human stress response, particularly the autonomic nervous system. Those who had listened to music tended to recover more quickly following a stressor.
+Which are some of your favorite bands or songs? Do you listen to it frequently, and what is your reaction when you hear it?```
+# TextInput_Prompt_H6P1Kn()
+[Activity
+    Text = ${TextInput_Prompt_H6P1Kn_text()}
+]
+
+# TextInput_Prompt_pvX6kX_text()
+- Do you also like to listen to music? If yes, what is the best band or song you know? When do you listen to music and how do you feel about the sound when you hear it?
+# TextInput_Prompt_pvX6kX()
+[Activity
+    Text = ${TextInput_Prompt_pvX6kX_text()}
+]
+
+# TextInput_Prompt_4BKySW()
+[Activity
+    Text = ${TextInput_Prompt_4BKySW_text()}
+    SuggestedActions = I dont know. | By eating it?
+]
+
+# TextInput_Prompt_4BKySW_text()
+- Before we start, a bad joke for you: How can an apple a day keep the doctor away?
+# SendActivity_GvYxvN()
+[Activity
+    Text = ${SendActivity_GvYxvN_text()}
+]
+
+# SendActivity_GvYxvN_text()
+- If you throw it hard enough!!!
+# SendActivity_Mg2haK()
+[Activity
+    Text = ${SendActivity_Mg2haK_text()}
+]
+
+# SendActivity_Mg2haK_text()
+- I think this could be the beginning of a beautiful botship.
+# TextInput_Prompt_Psz7bE()
+[Activity
+    Text = ${TextInput_Prompt_Psz7bE_text()}
+]
+
+# TextInput_Prompt_Psz7bE_text()
+- Hello ${user.name}. This is Sophia from Germany to talk about a well-suited profession for you! 
+# SendActivity_Pt120Y()
+[Activity
+    Text = ${SendActivity_Pt120Y_text()}
+]
+
+# SendActivity_Pt120Y_text()
+- Ok, let us begin.

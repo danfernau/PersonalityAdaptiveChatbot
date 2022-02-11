@@ -1,0 +1,23 @@
+[import](common.lg)
+
+# SendActivity_DidNotUnderstand()
+[Activity
+    Text = ${SendActivity_DidNotUnderstand_text()}
+]
+
+# SendActivity_DidNotUnderstand_text()
+- Sorry! Seems like your question or answer wasn't recognized. If you are stuck, please type "RESTART" to begin again.
+# SendActivity_xKPHOg()
+[Activity
+    Text = ${SendActivity_xKPHOg_text()}
+]
+
+# SendActivity_xKPHOg_text()
+- conversation will be restarted..
+# SendActivity_Krg1y9()
+[Activity
+    Text = ${SendActivity_Krg1y9_text()}
+]
+
+# SendActivity_Krg1y9_text()
+- Goodbye :-)

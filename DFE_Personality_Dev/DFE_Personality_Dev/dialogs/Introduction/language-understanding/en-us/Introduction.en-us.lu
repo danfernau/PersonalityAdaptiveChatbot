@@ -1,0 +1,179 @@
+
+# TextInput_Response_3V4RPc
+- i live in berlin
+
+@ prebuilt geographyV2
+
+# TextInput_Response_2w3aG0
+- i like {hobbies = skiiing, playing soccer and computer games}
+- i like {hobbies = football}
+- most of my time i {hobbies = play computer games}
+- my hobby is {hobbies = cycling}
+- i like playing {hobbies = football}. i am also in a team
+- I mostly work, but if I have time I like to {hobbies = play tennis}, {hobbies = sit in cafés or bars}.
+
+@ ml hobbies
+# Why
+- {why = why} do you ask me all this information?
+- {why = why} do you need my name?
+- {why = why} do you want to know all this?
+
+@ ml why
+
+# TextInput_Response_6SCdTJ
+- What's up
+- sup
+
+@ ml joke
+
+
+# TextInput_Response_O4nHNh
+- my name is daniel
+- daniel
+- hi i am daniel
+- daniel is my name
+- hi im brad
+- Hi there! I am Nils.
+
+@ prebuilt personName
+
+
+
+
+# TextInput_Response_AOn5bn
+- my name is daniel
+
+@ prebuilt personName
+
+
+
+
+# TextInput_Response_WOfEKY
+- What's up
+- sup
+
+@ ml joke
+
+
+
+# TextInput_Response_Yxs0VM
+- i live in berlin
+
+@ prebuilt geographyV2
+# TextInput_Response_5oTDu8
+- i like {hobbies = skiiing, playing soccer and computer games}
+- i like {hobbies = football}
+- most of my time i {hobbies = play computer games}
+- my hobby is {hobbies = cycling}
+- i like playing {hobbies = football}. i am also in a team
+- I mostly work, but if I have time I like to {hobbies = play tennis}, {hobbies = sit in cafés or bars}.
+
+@ ml hobbies
+
+# TextInput_Response_o5Ljpe
+- i currently work as a consultant
+- consultant
+- my job is being a consultant
+- i work as a consulant
+- i am a student
+
+@ ml job
+
+
+# TextInput_Response_4Amwq0
+- my name is daniel
+
+@ prebuilt personName
+
+
+
+
+
+# TextInput_Response_13Y5w1
+- my name is daniel
+
+@ prebuilt personName
+
+
+
+
+
+# TextInput_Response_xfnAOy
+- vietnam
+- my favourite place was bangkok
+- i loved sydney
+- in 2020 i traveled to sydney which was just amazing
+
+> entity definitions:
+@ prebuilt geographyV2
+
+# TextInput_Response_CAcZ2P
+- i like {hobbies = skiiing, playing soccer and computer games}
+- i like {hobbies = football}
+- most of my time i {hobbies = play computer games}
+- my hobby is {hobbies = cycling}
+- i like playing {hobbies = football}. i am also in a team
+- I mostly work, but if I have time I like to {hobbies = play tennis}, {hobbies = sit in cafés or bars}.
+
+@ ml hobbies
+
+
+
+# TextInput_Response_5q4Stb
+- i currently work as a consultant
+- consultant
+- my job is being a consultant
+- i work as a consulant
+- i am a student
+
+@ ml job
+
+
+
+# TextInput_Response_iBrVpo
+- vietnam
+- my favourite place was bangkok
+- i loved sydney
+- in 2020 i traveled to sydney which was just amazing
+
+> entity definitions:
+@ prebuilt geographyV2
+
+# TextInput_Response_cQkkrC
+- i currently work as a consultant
+- consultant
+- my job is being a consultant
+- i work as a consulant
+- i am a student
+
+@ ml job
+
+
+
+
+# TextInput_Response_H6P1Kn
+> add some expected user responses:
+- i listen to {music = metallica}
+- i like {music = metallica}
+- i love {music = jazz}
+- listening to {music = jazz} makes me happy
+- my favourite sing is {music = 99 Problems by Jay Z}
+- i like {music = rap} music. probably {artist = jay-z}
+> entity definitions:
+@ ml music
+@ ml artist
+
+
+
+# TextInput_Response_pvX6kX
+> add some expected user responses:
+- i listen to {music = metallica}
+- i like {music = metallica}
+- i love {music = jazz}
+- listening to {music = jazz} makes me happy
+- my favourite sing is {music = 99 Problems by Jay Z}
+- i like {music = rap} music. probably {artist = jay-z}
+> entity definitions:
+@ ml music
+@ ml artist
+

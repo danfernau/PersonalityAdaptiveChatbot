@@ -1,0 +1,20 @@
+{
+  "profileName": "CSITM publish",
+  "jobId": "2edef2c7-9ac5-4e95-b552-f45a5f4b3623",
+  "projectId": "48709.760295332184",
+  "time": "2021-10-12T18:56:04.681Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Use the Resource Group: DFE-Bot-MA at westeurope",
+    "> Creating App Registration ...",
+    "Start to add password for App, Id : 98510068-6809-43a9-b090-48d4b7364786",
+    "> Create App Registration Success! ID: 98510068-6809-43a9-b090-48d4b7364786",
+    "Deploying Web App Resource ...",
+    "Deploying Bot Resource ...",
+    "Deploying Blob Storage Resource ...",
+    "Deploying Luis Authoring Resource ...",
+    "Deploying Luis Resource ...",
+    "Provisioning completed successfully!"
+  ]
+}

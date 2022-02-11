@@ -1,0 +1,83 @@
+> To learn more about the LG file format, read the documentation at
+> https://aka.ms/lg-file-format
+# HeroCardCycling
+[HeroCard
+    title = Cycle to work
+    text = Cycling and walking are two of the most environmentally friendly ways to travel. And, not only are they good for the planet, but they’re also good for your health. If you can, choose to cycle or walk to work where possible. Your employer might even have a scheme that can help you purchase a bike. 
+    image = https://images.unsplash.com/uploads/14122621859313b34d52b/37e28531?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1746&q=80
+    buttons = I would try cycling!
+]
+
+# HeroCardCyclingShort
+[HeroCard
+    title = Cycle to work
+    text = Cycling and walking are two of the most environmentally friendly ways to travel. Go Get one! 
+    image = https://images.unsplash.com/uploads/14122621859313b34d52b/37e28531?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1746&q=80
+    buttons = Let's establish cycling!
+]
+
+# HeroCardDiet
+[HeroCard
+    title = Change my diet
+    text = The food we eat can have a significant impact on the environment. For example, meat and dairy products require a lot of land, water and energy to produce. They also create a lot of methane, a greenhouse gas. What’s more, food shipped from overseas uses a lot more resources than local produce. By eating fewer animal products, especially red meat, (or choosing a plant-based diet) and shopping for locally sourced food, you can make a big difference.  Why not support your local farmers’ market?
+    image = https://images.unsplash.com/photo-1506484381205-f7945653044d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80
+    buttons = I would try changing my diet!
+]
+
+# HeroCardDietShort
+[HeroCard
+    title = Change my diet
+    text = For example, meat and dairy products require a lot of land, water and energy to produce + they produce methane. 
+    image = https://images.unsplash.com/photo-1506484381205-f7945653044d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80
+    buttons = I will change my diet!
+]
+
+# HeroCardPlastic
+[HeroCard
+    title = Eliminate single-use plastic 
+    text = Single-use plastics may be convenient, yet they’re fairly dreadful for the environment. Not only do they pollute our waterways and oceans, but they also require energy to produce and recycle. You can stop using things like disposable coffee cups and cutlery to reduce your company’s carbon footprint. 
+    image = https://images.unsplash.com/photo-1595278069441-2cf29f8005a4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1742&q=80
+    buttons = I would try reducing plastic!
+]
+
+# HeroCardPlasticShort
+[HeroCard
+    title = Eliminate single-use plastic 
+    text = Single-use plastics may be convenient, yet they’re fairly dreadful for the environment.
+    image = https://images.unsplash.com/photo-1595278069441-2cf29f8005a4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1742&q=80
+    buttons = Let's reducing plastic!
+]
+
+# HeroCardRRR
+[HeroCard
+    title = Reduce, reuse, recycle 
+    text = Companies of all sizes use a host of different products in their day-to-day running. Whether it’s things like paper, electronic devices, packaging, or water, it all has a carbon footprint. By reducing the amount of waste you generate, reusing IT equipment, and recycling waste, you can make a real difference. 
+    image = https://images.unsplash.com/photo-1582407123556-59f95920eeaa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1742&q=80
+    buttons = I would try reduce, reuse, recycle!
+]
+
+# HeroCardRRRShort
+[HeroCard
+    title = Reduce, reuse, recycle 
+    text = Whether it’s things like paper, electronic devices, packaging, or water, it all has a carbon footprint.
+    image = https://images.unsplash.com/photo-1582407123556-59f95920eeaa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1742&q=80
+    buttons = Let's reduce, reuse, recycle!
+]
+
+
+# AllCards()
+[Activity
+    >Attachments = cardOne | cardTwo | cardThree
+    Attachments = ${HeroCardCycling()} | ${HeroCardDiet()} | ${HeroCardRRR()} | ${HeroCardPlastic()}
+    AttachmentLayout = ${AttachmentLayoutType()}
+]
+# AllCardsShort()
+[Activity
+    >Attachments = cardOne | cardTwo | cardThree
+    Attachments = ${HeroCardCyclingShort()} | ${HeroCardDietShort()} | ${HeroCardRRRShort()} | ${HeroCardPlasticShort()}
+    AttachmentLayout = ${AttachmentLayoutType()}
+]
+
+
+# AttachmentLayoutType
+- carousel

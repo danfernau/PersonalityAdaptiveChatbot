@@ -1,0 +1,8 @@
+{
+  "$kind": "Microsoft.MultiLanguageRecognizer",
+  "id": "LUIS_DFE_Personality_Dev",
+  "recognizers": {
+    "en-us": "DFE_Personality_Dev.en-us.lu",
+    "": "DFE_Personality_Dev.en-us.lu"
+  }
+}

@@ -1,0 +1,619 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "MhJAz7",
+    "name": "JobRecommender",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "Zh81Ja"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "8NePAj"
+          },
+          "condition": "user.personality",
+          "cases": [
+            {
+              "value": "ET",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "NYt1mb"
+                  },
+                  "activity": "${SendActivity_NYt1mb()}"
+                },
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "9vOE8D"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_9vOE8D()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": ""
+                },
+                {
+                  "$kind": "Microsoft.EditArray",
+                  "$designer": {
+                    "id": "3wpyh0"
+                  },
+                  "changeType": "push",
+                  "itemsProperty": "user.conversationLog",
+                  "value": "=turn.activity.text"
+                },
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "97iPBb"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_97iPBb()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": ""
+                },
+                {
+                  "$kind": "Microsoft.EditArray",
+                  "$designer": {
+                    "id": "el0Ol2"
+                  },
+                  "changeType": "push",
+                  "itemsProperty": "user.conversationLog",
+                  "value": "=turn.activity.text"
+                },
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "TvCmA5"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_TvCmA5()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": ""
+                },
+                {
+                  "$kind": "Microsoft.EditArray",
+                  "$designer": {
+                    "id": "G3Sfru"
+                  },
+                  "changeType": "push",
+                  "itemsProperty": "user.conversationLog",
+                  "value": "=turn.activity.text"
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "vTuRkH"
+                  },
+                  "activity": "${SendActivity_vTuRkH()}"
+                },
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "pbSZPj"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_pbSZPj()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": ""
+                },
+                {
+                  "$kind": "Microsoft.EditArray",
+                  "$designer": {
+                    "id": "wOrb8E"
+                  },
+                  "changeType": "push",
+                  "itemsProperty": "user.conversationLog",
+                  "value": "=turn.activity.text"
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "mrrl15"
+                  },
+                  "activity": "${SendActivity_mrrl15()}"
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "N40gNj"
+                  },
+                  "activity": "${SendActivity_N40gNj()}"
+                }
+              ]
+            },
+            {
+              "value": "EF",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "XModaE"
+                  },
+                  "activity": "${SendActivity_XModaE()}"
+                },
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "syK9Vz"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_syK9Vz()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": ""
+                },
+                {
+                  "$kind": "Microsoft.EditArray",
+                  "$designer": {
+                    "id": "ezoflY"
+                  },
+                  "changeType": "push",
+                  "itemsProperty": "user.conversationLog",
+                  "value": "=turn.activity.text"
+                },
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "sc8tkz"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_sc8tkz()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": ""
+                },
+                {
+                  "$kind": "Microsoft.EditArray",
+                  "$designer": {
+                    "id": "0K0Xpe"
+                  },
+                  "changeType": "push",
+                  "itemsProperty": "user.conversationLog",
+                  "value": "=turn.activity.text"
+                },
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "4xNMZh"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_4xNMZh()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": ""
+                },
+                {
+                  "$kind": "Microsoft.EditArray",
+                  "$designer": {
+                    "id": "CyB6UE"
+                  },
+                  "changeType": "push",
+                  "itemsProperty": "user.conversationLog",
+                  "value": "=turn.activity.text"
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "zOlGcO"
+                  },
+                  "activity": "${SendActivity_zOlGcO()}"
+                },
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "KbqDSU"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_KbqDSU()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": ""
+                },
+                {
+                  "$kind": "Microsoft.EditArray",
+                  "$designer": {
+                    "id": "GXVt9x"
+                  },
+                  "changeType": "push",
+                  "itemsProperty": "user.conversationLog",
+                  "value": "=turn.activity.text"
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "KZI1dQ"
+                  },
+                  "activity": "${SendActivity_KZI1dQ()}"
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "6zw5A9"
+                  },
+                  "activity": "${SendActivity_6zw5A9()}"
+                }
+              ]
+            },
+            {
+              "value": "IT",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "kxpLeR"
+                  },
+                  "activity": "${SendActivity_kxpLeR()}"
+                },
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "Rcztqd"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_Rcztqd()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": ""
+                },
+                {
+                  "$kind": "Microsoft.EditArray",
+                  "$designer": {
+                    "id": "AhS0aG"
+                  },
+                  "changeType": "push",
+                  "itemsProperty": "user.conversationLog",
+                  "value": "=turn.activity.text"
+                },
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "M8OYPn"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_M8OYPn()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": ""
+                },
+                {
+                  "$kind": "Microsoft.EditArray",
+                  "$designer": {
+                    "id": "E37VIX"
+                  },
+                  "changeType": "push",
+                  "itemsProperty": "user.conversationLog",
+                  "value": "=turn.activity.text"
+                },
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "hPJlFG"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_hPJlFG()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": ""
+                },
+                {
+                  "$kind": "Microsoft.EditArray",
+                  "$designer": {
+                    "id": "ht53SG"
+                  },
+                  "changeType": "push",
+                  "itemsProperty": "user.conversationLog",
+                  "value": "=turn.activity.text"
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "hUz1QZ"
+                  },
+                  "activity": "${SendActivity_hUz1QZ()}"
+                },
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "yEuLCI"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_yEuLCI()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": ""
+                },
+                {
+                  "$kind": "Microsoft.EditArray",
+                  "$designer": {
+                    "id": "4YTzcD"
+                  },
+                  "changeType": "push",
+                  "itemsProperty": "user.conversationLog",
+                  "value": "=turn.activity.text"
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "CYrgVT"
+                  },
+                  "activity": "${SendActivity_CYrgVT()}"
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "x3qvhA"
+                  },
+                  "activity": "${SendActivity_x3qvhA()}"
+                }
+              ]
+            },
+            {
+              "value": "IF",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "OdrfgJ"
+                  },
+                  "activity": "${SendActivity_OdrfgJ()}"
+                },
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "M9yxV0"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_M9yxV0()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": ""
+                },
+                {
+                  "$kind": "Microsoft.EditArray",
+                  "$designer": {
+                    "id": "1b24dj"
+                  },
+                  "changeType": "push",
+                  "itemsProperty": "user.conversationLog",
+                  "value": "=turn.activity.text"
+                },
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "0CvFoc"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_0CvFoc()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": ""
+                },
+                {
+                  "$kind": "Microsoft.EditArray",
+                  "$designer": {
+                    "id": "v3QMcb"
+                  },
+                  "changeType": "push",
+                  "itemsProperty": "user.conversationLog",
+                  "value": "=turn.activity.text"
+                },
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "4UZTxX"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_4UZTxX()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": ""
+                },
+                {
+                  "$kind": "Microsoft.EditArray",
+                  "$designer": {
+                    "id": "x36atd"
+                  },
+                  "changeType": "push",
+                  "itemsProperty": "user.conversationLog",
+                  "value": "=turn.activity.text"
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "1nkRtB"
+                  },
+                  "activity": "${SendActivity_1nkRtB()}"
+                },
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "sQFWqi"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_sQFWqi()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": ""
+                },
+                {
+                  "$kind": "Microsoft.EditArray",
+                  "$designer": {
+                    "id": "QhT4zm"
+                  },
+                  "changeType": "push",
+                  "itemsProperty": "user.conversationLog",
+                  "value": "=turn.activity.text"
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "9Uvfti"
+                  },
+                  "activity": "${SendActivity_9Uvfti()}"
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "MVuZLX"
+                  },
+                  "activity": "${SendActivity_MVuZLX()}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.SetProperty",
+          "$designer": {
+            "id": "xvxXkM"
+          },
+          "property": "user.interactionTimeEnd",
+          "value": "= formatDateTime(turn.activity.timestamp, \"yyyy-MM-dd'T'HH:mm:ssZZZZ\", \"en-US\")"
+        },
+        {
+          "$kind": "Microsoft.HttpRequest",
+          "$designer": {
+            "id": "gXXEbD"
+          },
+          "method": "POST",
+          "contentType": "application/json",
+          "responseType": "json",
+          "resultProperty": "dialog.api_response",
+          "url": "https://dfepersonalitydev.table.core.windows.net/ConversationLog?sv=2020-08-04&ss=t&srt=sco&sp=rwdlacu&se=2022-01-19T18:25:02Z&st=2021-10-13T09:25:02Z&spr=https&sig=xU4tkSkgWpN6OtGmTyQDQhMxPv87alvbofd%2FwKY1X4Y%3D",
+          "body": {
+            "PartitionKey": "${turn.activity.conversation.id}",
+            "RowKey": "${user.id} ",
+            "UserName": "${user.name}",
+            "UserCity": "${user.city}",
+            "personality": "${user.personality}",
+            "isInverted": "${user.persInverted}",
+            "score": "${user.score}",
+            "ConversationLog": "${user.conversationLog}",
+            "ConversationStart": "${user.interactionTimeStart}",
+            "ConversationEnd": "${user.interactionTimeEnd}"
+          },
+          "headers": {
+            "Content-Length": "0",
+            "Accept": "application/json"
+          }
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "LjcByO"
+          },
+          "condition": "= dialog.api_response.statusCode == 200 || 201",
+          "actions": [
+            {
+              "$kind": "Microsoft.LogAction",
+              "$designer": {
+                "id": "y7jwYN"
+              },
+              "traceActivity": true,
+              "text": "${LogAction_Text_y7jwYN()}"
+            }
+          ],
+          "elseActions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "Lnr4m7"
+              },
+              "activity": "${SendActivity_Lnr4m7()}"
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.DeleteProperties",
+          "$designer": {
+            "id": "W3q2LA"
+          },
+          "properties": [
+            "user.conversationLog",
+            "user.climate.test",
+            "user.name",
+            "user.joke",
+            "user.city",
+            "user.hobbies",
+            "user.destination",
+            "user.music",
+            "user.job",
+            "user.future"
+          ]
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "X8jCtp"
+          }
+        }
+      ]
+    }
+  ],
+  "generator": "JobRecommender.lg",
+  "recognizer": "JobRecommender.lu.qna",
+  "id": "JobRecommender"
+}

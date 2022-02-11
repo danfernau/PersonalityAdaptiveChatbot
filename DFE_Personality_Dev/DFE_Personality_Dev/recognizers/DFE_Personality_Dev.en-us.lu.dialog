@@ -1,0 +1,8 @@
+{
+  "$kind": "Microsoft.LuisRecognizer",
+  "id": "LUIS_DFE_Personality_Dev",
+  "applicationId": "=settings.luis.DFE_Personality_Dev_en_us_lu.appId",
+  "version": "=settings.luis.DFE_Personality_Dev_en_us_lu.version",
+  "endpoint": "=settings.luis.endpoint",
+  "endpointKey": "=settings.luis.endpointKey"
+}

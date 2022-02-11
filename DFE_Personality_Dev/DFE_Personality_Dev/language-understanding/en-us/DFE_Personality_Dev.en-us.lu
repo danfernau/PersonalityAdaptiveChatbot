@@ -1,0 +1,22 @@
+> To learn more about the LU file format, read the documentation at
+> https://aka.ms/lu-file-format
+
+# restart_conversation
+- RESTART
+@ ml restart_conv
+
+# goodbye
+- bye
+- cya
+- ciao
+- goodbye
+
+@ ml bye
+
+# UserHi
+- hi
+- hello
+- hai
+- Whats up?
+
+@ ml hi

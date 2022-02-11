@@ -1,0 +1,26 @@
+{
+  "DFE_Personality_Dev.en-us": {
+    "rootDialog": true,
+    "triggers": {
+      "": [
+        "Introduction.en-us"
+      ],
+      "restart_conversation": [
+        "Introduction.en-us"
+      ],
+      "goodbye": "",
+      "UserHi": [
+        "Introduction.en-us"
+      ]
+    }
+  },
+  "Introduction.en-us": {
+    "rootDialog": false,
+    "triggers": {
+      "": [
+        "JobRecommender.en-us"
+      ],
+      "Why": ""
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "name": "DFE_Personality_Dev",
+    "description": "",
+    "id": "A79tBe"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnConversationUpdateActivity",
+      "$designer": {
+        "id": "376720"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SetProperty",
+          "$designer": {
+            "id": "rKdBsj"
+          },
+          "property": "user.conversationLog",
+          "value": "= []"
+        },
+        {
+          "$kind": "Microsoft.SetProperties",
+          "$designer": {
+            "id": "cQ5xNs"
+          },
+          "assignments": [
+            {
+              "property": "user.id",
+              "value": "= split(turn.activity.from.id, \"!\")[0]"
+            },
+            {
+              "property": "user.personality",
+              "value": "= split(turn.activity.from.id, \"!\")[1]"
+            },
+            {
+              "property": "user.persInverted",
+              "value": "= split(turn.activity.from.id, \"!\")[2]"
+            },
+            {
+              "property": "user.score",
+              "value": "= split(turn.activity.from.id, \"!\")[3]"
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.SetProperty",
+          "$designer": {
+            "id": "9qfyie"
+          },
+          "property": "user.interactionTimeStart",
+          "value": "= formatDateTime(turn.activity.timestamp, \"yyyy-MM-dd'T'HH:mm:ssZZZZ\", \"en-US\")"
+        },
+        {
+          "$kind": "Microsoft.Foreach",
+          "$designer": {
+            "id": "518944",
+            "name": "Loop: for each item"
+          },
+          "itemsProperty": "turn.Activity.membersAdded",
+          "actions": [
+            {
+              "$kind": "Microsoft.IfCondition",
+              "$designer": {
+                "id": "641773",
+                "name": "Branch: if/else"
+              },
+              "condition": "string(dialog.foreach.value.id) != string(turn.Activity.Recipient.id)",
+              "actions": [
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "sp1q4B"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Introduction"
+                },
+                {
+                  "$kind": "Microsoft.EndDialog",
+                  "$designer": {
+                    "id": "zG5IFG"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnUnknownIntent",
+      "$designer": {
+        "id": "mb2n1u"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "kMjqz1"
+          },
+          "activity": "${SendActivity_DidNotUnderstand()}"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "0gwG22",
+        "name": "restart_conversation"
+      },
+      "intent": "restart_conversation",
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "xKPHOg"
+          },
+          "activity": "${SendActivity_xKPHOg()}"
+        },
+        {
+          "$kind": "Microsoft.DeleteProperties",
+          "$designer": {
+            "id": "AMviCl"
+          },
+          "properties": [
+            "user.conversationLog",
+            "user.climate.test",
+            "user.name",
+            "user.joke",
+            "user.city",
+            "user.hobbies",
+            "user.destination",
+            "user.music",
+            "user.job",
+            "user.future"
+          ]
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "gJnDsQ"
+          },
+          "activityProcessed": true,
+          "dialog": "Introduction"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "8hmQ2B",
+        "name": "goodbye"
+      },
+      "intent": "goodbye",
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "Krg1y9"
+          },
+          "activity": "${SendActivity_Krg1y9()}"
+        }
+      ],
+      "condition": "= #goodbye.Score >= 0.7"
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "QdwRQc",
+        "name": "UserHi"
+      },
+      "intent": "UserHi",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "hhn2Bz"
+          },
+          "activityProcessed": true,
+          "dialog": "Introduction"
+        }
+      ]
+    }
+  ],
+  "generator": "DFE_Personality_Dev.lg",
+  "id": "DFE_Personality_Dev",
+  "recognizer": "DFE_Personality_Dev.lu.qna"
+}

@@ -1,0 +1,260 @@
+[import](common.lg)
+
+# SendActivity_NYt1mb()
+[Activity
+    Text = ${SendActivity_NYt1mb_text()}
+]
+
+# SendActivity_NYt1mb_text()
+- Alright ok! 🙂 Let's talk about your opinion when it comes to putting in work. On avg. people spend 13 yrs at work in their life. Next, I will ask you 3 questions about this important topic.
+# TextInput_Prompt_9vOE8D()
+[Activity
+    Text = ${TextInput_Prompt_9vOE8D_text()}
+]
+
+# TextInput_Prompt_9vOE8D_text()
+- What about this.🙂  Are you better at dealing with things or with people and why?👨🏼‍⚕️🧑🏼‍🔧 When I was young, I always played Lego and built castles on the screen, but my sister bot always destroyed them. That made me so mad 😡😡.
+# TextInput_Prompt_97iPBb()
+[Activity
+    Text = ${TextInput_Prompt_97iPBb_text()}
+]
+
+# TextInput_Prompt_97iPBb_text()
+- If you are the boss and could decide: would you want to be loved or rather want to be respected and why? 🧐 (You are not allowed to choose both 😜)
+# TextInput_Prompt_TvCmA5()
+[Activity
+    Text = ${TextInput_Prompt_TvCmA5_text()}
+]
+
+# TextInput_Prompt_TvCmA5_text()
+- Okay I have one last question. Imagine this. Friday. Go home or go out? I think Friday nights are the fucking best to go out and party!!🥳 What's your decision and why?
+# SendActivity_XModaE_text()
+- Alrighty cool!! 🙂 Let's talk about your preferences about working.🤜🏼 3 questions for you are ahead.🙂
+# SendActivity_XModaE()
+[Activity
+    Text = ${SendActivity_XModaE_text()}
+]
+
+# TextInput_Prompt_syK9Vz_text()
+- Oki doki so next what about this.👉🏼 Are you better at dealing with things or with people and why?👨🏼‍⚕️🧑🏼‍⚕️👨🏻‍🔧🧑🏼‍🔧 When I was young I always cared about my younger sister bot when she was sad and helped her to be happy.😊😊😊
+# TextInput_Prompt_syK9Vz()
+[Activity
+    Text = ${TextInput_Prompt_syK9Vz_text()}
+]
+
+# SendActivity_kxpLeR_text()
+- Knowing you a slightly better, next we can make some educated guesses about what might be a good opportunity for you. Accordingly, I would like to know more about your working preferences. In the following, I will ask you 3 questions.
+# SendActivity_kxpLeR()
+[Activity
+    Text = ${SendActivity_kxpLeR_text()}
+]
+
+# TextInput_Prompt_Rcztqd_text()
+- How about a scientific career such as a scientist or a more artistic career such as a musician? If you had to decide, which profession would you choose and why? Me, as Sophia the bot, I would most likely pursue a scientific career with my analytical mindset.
+# TextInput_Prompt_Rcztqd()
+[Activity
+    Text = ${TextInput_Prompt_Rcztqd_text()}
+]
+
+# TextInput_Prompt_M8OYPn_text()
+- Significant progress so far. The shocking pandemic continues to spread 😡 Numerous people have died, many have been ill, and the costs of combating the Covid-19 virus are mad.😡 The Medicare fee-for-service of COVID-19 hospitalizations averages $24,033. Most offices are almost empty, leading to me being the only one at the office. But for me, it is truly a pleasure to be alone! I wonder how you feel when you are alone?
+# TextInput_Prompt_M8OYPn()
+[Activity
+    Text = ${TextInput_Prompt_M8OYPn_text()}
+]
+
+# SendActivity_OdrfgJ_text()
+- Since I got a better picture of you now, let me try to guess what could be a suitable profession. Therefore, let us talk about your preferences when it comes to working. In the following, I will ask you 3 behavioral questions.
+# SendActivity_OdrfgJ()
+[Activity
+    Text = ${SendActivity_OdrfgJ_text()}
+]
+
+# TextInput_Prompt_M9yxV0_text()
+- What about a scientific profession such as a researcher or a rather artistic one like a musician? I, as Sophia the bot, need a profession to express my creative spirit, to perform. Which one would describe you the best and most importantly why?
+# TextInput_Prompt_M9yxV0()
+[Activity
+    Text = ${TextInput_Prompt_M9yxV0_text()}
+]
+
+# TextInput_Prompt_0CvFoc_text()
+- Okay. Significant progress. The pandemic is still enduring. Numerous people suffer from the Covid-19 virus. Most offices are almost empty. Mostly I am the only person at the office. Being alone is simply amazing! How do you feel if you are alone?
+# TextInput_Prompt_0CvFoc()
+[Activity
+    Text = ${TextInput_Prompt_0CvFoc_text()}
+]
+
+# TextInput_Prompt_sc8tkz_text()
+- If you are the boss, would you want to be loved or rather be respected and why?🧐 (not allowed to choose both 😜)
+# TextInput_Prompt_sc8tkz()
+[Activity
+    Text = ${TextInput_Prompt_sc8tkz_text()}
+]
+
+# TextInput_Prompt_4xNMZh_text()
+- Oooookay last question. Imagine this.💭 Friday. 🕓 Go home or go out?🙂 I think Friday nights are the best to go out and partyyyy!!🥳🥳 What's your decision and why? 😊
+# TextInput_Prompt_4xNMZh()
+[Activity
+    Text = ${TextInput_Prompt_4xNMZh_text()}
+]
+
+# TextInput_Prompt_hPJlFG_text()
+- If you were able to choose between attending a course at university or school that consists of just an exam, where you have to study for yourself, as opposed to a group project, where you have to work with others to get a result. What is your preference and why?
+# TextInput_Prompt_hPJlFG()
+[Activity
+    Text = ${TextInput_Prompt_hPJlFG_text()}
+]
+
+# TextInput_Prompt_4UZTxX_text()
+- If you could choose between a course at university which is just an exam where you have to study for yourself or a group project, where you have to work with colleagues to present a result. Which one would make you happier and why?
+# TextInput_Prompt_4UZTxX()
+[Activity
+    Text = ${TextInput_Prompt_4UZTxX_text()}
+]
+
+# SendActivity_vTuRkH_text()
+- ```Fuck yeah, my gut says you're someone who learns from doing and discussing 💪, you communicate by talking 😄, strive for objective standards and truth 🕵🏽, and you are analytical🔬. These skills are damn helpful for:
+\- Marketing
+\- Management
+\- Business Consulting
+\- Applied technology
+\- Leadership
+\- Science```
+# SendActivity_vTuRkH()
+[Activity
+    Text = ${SendActivity_vTuRkH_text()}
+]
+
+# SendActivity_mrrl15_text()
+- ```Cheers buddy! Now back to the survey.
+BYE👋🏼```
+# SendActivity_mrrl15()
+[Activity
+    Text = ${SendActivity_mrrl15_text()}
+]
+
+# SendActivity_zOlGcO_text()
+- ```YIKESS \- I got it!!!!!!😱  My gut says you're someone who learns from doing and discussing 💪, you communicate by talking 😄, strive for harmony and positive interaction 🙃, and are empathetic 🤗. These skills are amazing for:
+\- Counseling (Rehabilitation Counselor)
+\- Education (Teacher)
+\- Healthcare (Nurse)
+\- Artist (Musician)
+\- Skilled trades (Electronics)
+\- Childcare provider```
+# SendActivity_zOlGcO()
+[Activity
+    Text = ${SendActivity_zOlGcO_text()}
+]
+
+# SendActivity_KZI1dQ_text()
+- ```Thank you soooo sooo much.🤗🤗 Now back to the survey. 🤗
+CYAAA👋🏼👋🏼👋🏼```
+# SendActivity_KZI1dQ()
+[Activity
+    Text = ${SendActivity_KZI1dQ_text()}
+]
+
+# SendActivity_hUz1QZ_text()
+- ```I think you are someone who learns best by reflection, you communicate in writing, strive for objective standards and truth, and is analytical. These skills are required for:
+\- Management, (Any area)
+\- Administration, (Auditor)
+\- Scientific fields or
+\- Computer Science (IT Architect, Developer)```
+# SendActivity_hUz1QZ()
+[Activity
+    Text = ${SendActivity_hUz1QZ_text()}
+]
+
+# SendActivity_CYrgVT_text()
+- ```Thank you for your time! Please proceed back to the survey.
+Bye.```
+# SendActivity_CYrgVT()
+[Activity
+    Text = ${SendActivity_CYrgVT_text()}
+]
+
+# SendActivity_1nkRtB_text()
+- ```I calculated the following results of the assessment: I think you are someone who learns best by reflection, you communicate in writing, strive for harmony and positive interaction, and is empathetic. These skills are great for:
+\- Education (Teacher,  Learning Content Developer)
+\- Healthcare (Physical Therapist, Nurse Practitioner)
+\- Counseling (Rehabilitation Counselor)
+\- Artist (Musician, Graphic Designer)
+\- Writing (Novel Writer)```
+# SendActivity_1nkRtB()
+[Activity
+    Text = ${SendActivity_1nkRtB_text()}
+]
+
+# SendActivity_9Uvfti_text()
+- ```Thank you for participating! Please continue with the survey.
+Goodbye```
+# SendActivity_9Uvfti()
+[Activity
+    Text = ${SendActivity_9Uvfti_text()}
+]
+
+# SendActivity_Lnr4m7()
+[Activity
+    Text = ${SendActivity_Lnr4m7_text()}
+]
+
+# SendActivity_Lnr4m7_text()
+- Ooops. Something went wrong when finishing your experiment.
+# LogAction_Text_y7jwYN()
+- ${dialog.api_response}
+# TextInput_Prompt_pbSZPj()
+[Activity
+    Text = ${TextInput_Prompt_pbSZPj_text()}
+]
+
+# TextInput_Prompt_pbSZPj_text()
+- Which of these sound good to you?🙂
+# SendActivity_N40gNj_text()
+- (Please note down that this interaction was done with Carla - it will be important for later assessment! Now go back to the former survey tab to proceed.)
+# SendActivity_N40gNj()
+[Activity
+    Text = ${SendActivity_N40gNj_text()}
+]
+
+# SendActivity_6zw5A9_text()
+- (Please note down that this interaction was done with Carla - it will be important for later assessment! Now go back to the former survey tab to proceed.)
+# SendActivity_6zw5A9()
+[Activity
+    Text = ${SendActivity_6zw5A9_text()}
+]
+
+# SendActivity_x3qvhA_text()
+- (Please note down that this interaction was done with Sophia - it will be important for later assessment! Now go back to the former survey tab to proceed.)
+# SendActivity_x3qvhA()
+[Activity
+    Text = ${SendActivity_x3qvhA_text()}
+]
+
+# SendActivity_MVuZLX_text()
+- (Please note down that this interaction was done with Sophia - it will be important for later assessment! Now go back to the former survey tab to proceed.)
+# SendActivity_MVuZLX()
+[Activity
+    Text = ${SendActivity_MVuZLX_text()}
+]
+
+# TextInput_Prompt_KbqDSU_text()
+- Which profession sounds interesting to you?🙂🙂🙂
+# TextInput_Prompt_KbqDSU()
+[Activity
+    Text = ${TextInput_Prompt_KbqDSU_text()}
+]
+
+# TextInput_Prompt_yEuLCI_text()
+- Which of these options would appeal to you?
+# TextInput_Prompt_yEuLCI()
+[Activity
+    Text = ${TextInput_Prompt_yEuLCI_text()}
+]
+
+# TextInput_Prompt_sQFWqi_text()
+- Which option would make you happy?
+# TextInput_Prompt_sQFWqi()
+[Activity
+    Text = ${TextInput_Prompt_sQFWqi_text()}
+]
+
